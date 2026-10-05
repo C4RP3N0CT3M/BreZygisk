@@ -37,7 +37,7 @@ jobs:
       - name: Upload release
         uses: actions/upload-artifact@v7
         with:
-          path: "build/out/ReZygisk-v*-release.zip"
+          path: "build/out/BreZygisk-v*-release.zip"
           archive: true
 
       - name: Upload debug
